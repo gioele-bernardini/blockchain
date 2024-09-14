@@ -1,4 +1,0 @@
-# Ignore Cargo output
-target/
-Cargo.lock
-
