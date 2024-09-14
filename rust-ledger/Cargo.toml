@@ -3,20 +3,31 @@ name = "rust-ledger"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+# SHA-256 hashing for cryptographic integrity.
 sha2 = "0.10.6"
+# Cryptographic primitives like hashing, encryption, etc.
 rust-crypto = "^0.2"
+# Efficient binary serialization and deserialization.
 bincode = "1.3"
+# Error handling library for custom error types.
 failure = "0.1"
+# Embedded key-value database with high performance.
 sled = "0.34"
+# Structured logging support.
 log = "0.4"
+# Configures log output through environment variables.
 env_logger = "0.10.0"
+# CLI argument parser for building command-line applications.
 clap = "4.0.29"
+# Utility for working with Bitcoin Cash addresses.
 bitcoincash-addr = "0.5.2"
+# Random number generation for cryptography or randomness.
 rand = "0.8.5"
+# Construct Merkle trees (used in cryptographic contexts).
 merkle-cbt = "0.3.2"
+# Serialization and deserialization framework with derive support.
 serde = { version = "1.0", features = ["derive"] }
+# JSON serialization and deserialization.
 serde_json = "1.0"
 
