@@ -6,4 +6,4 @@
 
 ⚠️ **Work in Progress** ⚠️
 
-This repository is regularly updated.
+I am currently working on other projects, but I will get back to this as soon as possible!
